@@ -36,9 +36,9 @@
     },
     "scripts": {
         "post-install-cmd": [
-     "php artisan clear-compiled",
-     "chmod -R 777 public/"
-    ],
+            "php artisan clear-compiled",
+            "chmod -R 777 public/"
+        ],       
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -64,6 +64,6 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": true
     
 }
