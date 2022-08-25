@@ -1,0 +1,291 @@
+/* #ProductPageCarousel .owl-nav {
+    position: absolute;
+    top: 540px;
+    width: 100%;
+}
+
+#ProductPageCarousel .owl-nav .owl-next {
+    right: 56%;
+    position: absolute;
+}
+
+#ProductPageCarousel .owl-nav .owl-prev {
+    left: 36%;
+    position: absolute;
+} */
+
+.ingredientsP {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.INGREDIENTS .card {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 590px;
+    min-height: 200px;
+    background: #FFFFFF;
+    border: 2px solid #4B8B49;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 35px 0px;
+}
+
+.INGREDIENTS .card h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.INGREDIENTS .card p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.principalIngredients {
+    background-image: url('../img/ingredientsBackground.png');
+    background-size: cover;
+    min-height: 590px;
+}
+
+.principalIngredients .hr {
+    width: 88px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    border-radius: 100px;
+
+}
+
+.principalIngredients p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.ritik {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: -350px;
+    /* width: 0%; */
+}
+
+@media screen and (max-width :1150px) {
+    .ritik {
+        width: 250px !important;
+        margin-top: -300px;
+    }
+
+    .ritikBack {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .ritik {
+        margin-left: 0;
+        width: 200px !important;
+        margin-top: -230px;
+        margin-left: 80px;
+    }
+
+    .ritikBack {
+        width: 200px !important;
+    }
+}
+
+.owl-navigation-ingredientshomePage_carousel .owl-nav-prev {
+    margin-left: 200px;
+}
+
+.ingredientsCarouselBtn {
+    margin-left: 50%;
+}
+
+.Aside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    z-index: 10 !important;
+}
+
+#asideLink {
+    position: fixed;
+    width: 50px;
+    height: 227px;
+    top: 238px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin-right: 22px;
+    z-index: 10 !important;
+}
+
+#asideFacebook {
+    margin-top: 13.48px;
+    margin-left: 9.46px;
+}
+
+#asideTwitter {
+    margin-top: 25.54px;
+    margin-left: 9.46px;
+}
+
+#asideInstagram {
+    margin-top: 25.87px;
+    margin-left: 9.46px;
+}
+
+#asideSnap {
+    margin-top: 25.66px;
+    margin-left: 9.46px;
+}
+
+
+.bestDealsHomeSection .leftSection {
+    background: rgba(75, 139, 73, 0.85);
+    height: 580px
+}
+
+.bestDealsHomeSection .rightSection {
+    background-image: url('../img/bestDealsBg2.png');
+    height: 580px
+}
+
+.bestDealsHomeSection h1 {
+    font-weight: 700;
+    font-size: 36.9px;
+    line-height: 50px;
+    color: #CCD85F;
+    margin: 11.1153px 0px;
+    margin-top: 130px;
+    margin-left: 120.7px;
+}
+
+.bestDealsHomeSection p {
+    font-weight: 600;
+    font-size: 12.5047px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #F3F4F6;
+    margin: 16.673px 0px;
+    margin-left: 120.7px;
+}
+
+.bestDealsHomeSection h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FAFAFA;
+    margin-left: 121px;
+}
+
+.bestDealsHomeSection .buyNowBtn {
+    margin-top: 40px;
+}
+
+.bestDealsHomeSection .yellowCircle {
+    width: 241.06px;
+    height: 241.06px;
+    background: #CCD85F;
+    border-radius: 50%;
+}
+
+.bestDealsCarousel {
+    z-index: 1 !important;
+}
+
+.bestDealsRightImg {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -120px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #8B0204 !important;
+}
+
+@media screen and (max-width:1142px) {
+    .bestDealsRightImg {
+        width: 30% !important;
+        margin-left: -100px;
+        margin-top: -150px;
+    }
+
+    .bestDealsHomeSection .yellowCircle {
+        width: 141.06px;
+        height: 141.06px;
+        background: #CCD85F;
+        border-radius: 50%;
+    }
+}
+
+@media screen and (max-width:879px) {
+    .bestDealsRightImg {
+        width: 30% !important;
+        /* margin-left: -80px; */
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .bestDealsHomeSection .leftSection {
+        height: 500px
+    }
+
+    .bestDealsHomeSection h1 {
+        margin-left: 20.7px;
+        margin-top: 60px;
+    }
+
+    .bestDealsHomeSection p {
+        margin-left: 20.7px;
+    }
+
+    .bestDealsHomeSection h2 {
+        margin-left: 21px;
+    }
+
+    .bestDealsRightImg {
+        width: 70% !important;
+        margin-top: -150px;
+    }
+
+    .bestDealsHomeSection .rightSection {
+        background-image: url('../img/bestDealsBg2.png');
+        height: 280px
+    }
+}
+
+@media screen and (max-width:443px) {
+    .bestDealsRightImg {
+        width: 70% !important;
+        margin-left: -50px;
+        margin-top: -120px;
+    }
+}
+
+.shopBtn,
+.infoBtn {
+    max-width: 106px;
+    height: 28px;
+}
+
+
+
+@media screen and (max-width:900px) {
+
+    .shopBtn,
+    .infoBtn {
+        width: 106px !important;
+        height: 28px !important;
+    }
+}

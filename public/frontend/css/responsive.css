@@ -1,0 +1,44 @@
+@media only screen and (max-width: 786px) {
+	.menu-box {
+		position: relative;
+		bottom: 0;
+		top: 0;
+		margin-right: 5px;
+	}
+
+	.b-b-s {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	}
+
+	.bg-top {
+		height: 150px;
+		width: 100%;
+		background-image: url(../img/top/rp.png);
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding-top: 40px;
+	}
+}
+
+@media (min-width:787px) and (max-width:1273px) {
+
+	.menu-box {
+		position: relative;
+		bottom: 0;
+		top: 0;
+		margin: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.b-b-s {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	}
+
+	.md-100 {
+		width: 100%;
+	}
+}
